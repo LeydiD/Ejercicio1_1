@@ -12,6 +12,7 @@ header {
     text-align: center;
     padding: 1rem;
     font-family: 'Satisfy', cursive;
+    font-size: 55px;
     display: flex;
     text-align: center;
 }
@@ -53,4 +54,52 @@ header h1 {
 .card p {
     color: #333;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.importancia-mascotas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.video-container {
+    width: 50%;
+}
+
+.formulario-container {
+    width: 40%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.formulario-container h2 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.formulario-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-container label,
+.formulario-container input,
+.formulario-container textarea,
+.formulario-container button {
+    margin-bottom: 10px;
+}
+
+.formulario-container button {
+    background-color: #4f32cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario-container button:hover {
+    background-color: #583fb4;
 }
