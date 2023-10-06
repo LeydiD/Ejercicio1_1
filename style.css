@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    background-image: url("https://i.pinimg.com/originals/02/cb/4c/02cb4c4f82a565e58772a8f4efd30928.gif");
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+header {
+    background-color: #7f4cafd5;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 40px;
+}
+
+.imagen {
+    width: 10%;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+   
+}
+
+.card h2 {
+    color: #6020d6;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.card p {
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
